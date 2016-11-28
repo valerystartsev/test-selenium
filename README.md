@@ -1,2 +1,3 @@
 # test-selenium
-Repo for Selenium training
+Test Repository for Selenium training
+
