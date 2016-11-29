@@ -29,11 +29,16 @@ namespace missions
         public void Test1_Login2AdminPanel()
         {
             _driver.Url = "http://litecart:81/admin/login.php";
+            
+            // login box is visible
+            _wait.Until(ExpectedConditions.ElementIsVisible(By.Id("box-login")));
+            // fill the fields and click login
             _driver.FindElement(By.Name("username")).SendKeys("admin");
             _driver.FindElement(By.Name("password")).SendKeys("admin");
             _driver.FindElement(By.Name("login")).Click();
-
-            //_wait.Until(ExpectedConditions.TitleContains("webdriver — Яндекс: нашлось"));
+            
+            // wait login is sucessfull and logout icon is visible
+            _wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".fa-sign-out")));
         }
 
         [TearDown]
