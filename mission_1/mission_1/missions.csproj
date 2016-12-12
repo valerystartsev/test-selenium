@@ -69,6 +69,8 @@
     <Compile Include="mission3.cs" />
     <Compile Include="mission1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="mission4.cs" />
+    <Compile Include="mission7.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
