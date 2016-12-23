@@ -77,6 +77,7 @@
     <Compile Include="mission11.cs" />
     <Compile Include="mission12.cs" />
     <Compile Include="mission13.cs" />
+    <Compile Include="mission14.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
