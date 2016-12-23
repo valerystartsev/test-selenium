@@ -66,6 +66,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="mission17.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mission3.cs" />
     <Compile Include="mission1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
